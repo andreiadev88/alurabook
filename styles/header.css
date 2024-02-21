@@ -58,7 +58,7 @@
 }
 
 .lista-menu__link {
-    background: var(--azul-degrade);
+    color: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -149,6 +149,7 @@
 
     .lista-menu__item :hover {
         background: var(--azul-degrade);
+        color: var(--branco);
     }
 
     .lista-menu__item:hover>.lista-menu__link {
